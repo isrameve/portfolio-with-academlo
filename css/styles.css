@@ -166,6 +166,25 @@
   font-family: 'Inconsolata', monospace;
 }
 
+/* General Skills - Progres bar */
+.front-bar {
+  width: 80%;
+  height: inherit;
+  background-color: #6d56c1;
+  border-radius: 5px;
+
+}
+.background-bar {
+  width: 90%;
+  height: 5px;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.skill .skill-text {
+  font-family: 'Inconsolata', monospace;
+}
+
 /* Media query */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
