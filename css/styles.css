@@ -1,0 +1,179 @@
+/* Imported fonts Roboto Mono, Roboto, Inconsolata*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* font-family: 'Inconsolata', monospace;, font-family: 'Roboto', sans-serif;, font-family: 'Roboto Mono', monospace; */
+
+/* General Properties */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+.all-personla-info{
+  height: 500px;
+}
+.important-text {
+  font-family: 'Roboto Mono', monospace;
+}
+.normal-text {
+  color: #555;
+}
+.button {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background-color: #6d56c1;
+} 
+
+/* Specific Properties */
+
+/* Header styles */
+.header-container {
+  background-color: #343434;
+  background-image: url(../img/background-header.jpeg);
+  background-size: 100%;
+  background-repeat: repeat;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.navigation-bar a[class="menu-lg"] {
+  display: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+/* .navigation-bar .menu-lg:first-child {
+  margin-left: 40px;
+} */
+.menu-responsive-sm {
+  margin-left: 10px;
+  padding: 20px;
+}
+.menu-responsive-sm .fa-bars {
+  font-size: 2rem;
+  color: white;
+}
+.header-container .personal-name {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 20px;
+  width: 85%;
+}
+.header-container .personal-capabilities {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.personal-contact-info {
+  margin-top: 20px;
+}
+.personal-contact-info dt {
+  float: left;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.personal-contact-info dd {
+  margin-left: 100px;
+  margin-bottom: 15px;
+}
+.personal-info-social a {
+  margin-right: 15px;
+}
+.personal-info-social 
+.fa-instagram,
+.fa-facebook,
+.fa-linkedin {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Content styles */
+/* Hello and Resume */
+.item-description {
+  margin-top: 50px;
+  color: #555555;
+}
+.item-description h2 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.item-description p {
+  font-size: 1.2rem;
+  line-height: 30px;
+  width: 80%;
+}
+.cv-button{
+  margin-bottom: 30px;
+}
+.hello .fa-download{
+  margin-right: 5px;
+}
+/* Education & Employmment */
+.wrapper-education-employment{
+  margin-top: 50px;
+}
+.wrapper-education-employment .important-text {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.wrapper-education-employment h2 {
+  color: #999;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+.wrapper-education-employment h3 {
+  margin-bottom: 10px;
+  color: #6d56c1;
+  font-weight: 500;
+}
+.wrapper-education-employment .date {
+  color: #999;
+  margin-bottom: 10px;
+}
+.descriptive-education-employment {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.descriptive-education-employment .date {
+  font-family: 'Inconsolata', monospace;
+}
+.wrapper-employment h2:first-child {
+  margin-top: 50px;
+}
+/* Media query */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .all-personla-info {
+    padding-left: 20%;
+    padding-right: 15px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .menu-responsive-lg{
+    padding-left: 20%;
+  }
+  .navigation-bar a[class="menu-lg"] {
+    display: inline-block;
+  }
+  .menu-responsive-sm {
+    display: none;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

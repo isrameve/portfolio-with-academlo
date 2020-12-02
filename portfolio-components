@@ -1,0 +1,32 @@
+Esto es un sitio de una sola pagina con scroll y sections
+
+index (First Mobile ever)
+
+  nav-bar
+  	links a las demás secciones
+
+  Banner(background-color)
+  	Foto del Developer (lado izquierdo - position: absolute; al parecer)
+  	Presentación sencilla del developer (lado derecho)
+
+  Descripciones generales (2 parrafos con titulo)
+		Subtitulo
+		Parrafo
+
+	Educación y Empoyment
+		2 elementos, cada uno está compuesto por por varios Subtitulo y parrafo
+
+	General Skills
+		Una sección con varios elementos con un span(al parecer) 
+		y una barra de progreso
+
+	Mis proyectos
+		Tarjetas muy similares para dar una entrada a mis proyectos realizados
+			Subtitulo, Parrafo, Subtitulo(used stack), span con dichos stack
+
+	Baner de opiniones
+		es mas como un slider con un Background... se desliza mostrando las
+		opinione y feedback
+
+	Footer
+		info de contacto, links a redes y formulario para enviar correo
