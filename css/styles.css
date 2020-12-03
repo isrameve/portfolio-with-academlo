@@ -127,6 +127,9 @@
   text-transform: uppercase;
   font-size: 1rem;
 }
+.wrapper-education-employment .normal-text {
+  line-height: 30px;
+}
 .wrapper-education-employment h2 {
   color: #999;
   font-weight: 400;
@@ -144,6 +147,7 @@
 .wrapper-education-employment .date {
   color: #999;
   margin-bottom: 10px;
+  font-family: 'Inconsolata', monospace;
 }
 .descriptive-education-employment {
   border-left: 2px solid #6d56c1;
@@ -161,9 +165,6 @@
   left: 5%;
   margin-left: 5px;
   box-sizing: border-box;
-}
-.descriptive-education-employment .date {
-  font-family: 'Inconsolata', monospace;
 }
 
 /* General Skills - Progres bar */
