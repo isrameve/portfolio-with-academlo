@@ -14,6 +14,7 @@
 /* General properties for all "col" class */
 [class*="col-"] {
   padding: 10px;
+  box-sizing: border-box;
 }
 
 /* Small devices (landscape phones, 576px and up) */

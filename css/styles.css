@@ -179,7 +179,17 @@
   height: inherit;
   background-color: #6d56c1;
   border-radius: 5px;
-
+}
+.js,
+.git {
+  width: 90%;
+}
+.python,
+.css {
+  width: 50%;
+}
+.adobe {
+  width: 30%;
 }
 .background-bar {
   width: 100%;
@@ -226,6 +236,7 @@
   .menu-responsive-sm {
     display: none;
   }
+  
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
