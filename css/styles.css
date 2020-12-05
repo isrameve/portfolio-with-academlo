@@ -9,7 +9,7 @@
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
 }
-.all-personla-info{
+.all-personla-info {
   height: 500px;
 }
 .important-text {
@@ -41,7 +41,6 @@
   font-family: 'Roboto Mono', monospace;
   color: white;
   height: 100%;
-  width: 100%;
 }
 .navigation-bar a[class="menu-lg"] {
   display: none;
@@ -110,14 +109,14 @@
   line-height: 30px;
   width: 80%;
 }
-.cv-button{
+.cv-button {
   margin-bottom: 30px;
 }
-.hello .fa-download{
+.hello .fa-download {
   margin-right: 5px;
 }
 /* Education & Employmment */
-.wrapper-education-employment{
+.wrapper-education-employment {
   margin-top: 50px;
 }
 .wrapper-education-employment .important-text {
@@ -214,6 +213,67 @@
   text-transform: uppercase;
 }
 
+/* Footer */
+.footer-wrapper {
+  background-color: #343434;
+  background-image: url(../img/background-header.jpeg);
+  background-size: 100%;
+  background-repeat: repeat;
+  color: white;
+  margin-top: 100px;
+}
+.principal-text-footer {
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 50px;
+}
+.social-footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+.footer-contact-info dl {
+  padding-top: 50px;
+}
+.footer-contact-info dt {
+  float: left;
+  text-transform: uppercase;
+  color: white;
+}
+.footer-contact-info dd {
+  margin-left: 100px;
+  margin-bottom: 15px;
+  font-family: 'Roboto Mono', monospace;
+}
+.social-footer ul {
+  list-style: none;
+  margin-top: 30px;
+}
+.social-footer ul a {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+.footer-form {
+  margin-top: 20px;
+}
+.input-form input {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: transparent;
+  height: 40px;
+  margin: 10px 0;
+  color: white;
+  padding-left: 10px;
+  font-family: 'Roboto Mono', monospace;
+}
+.input-form input[placeholder="Type the message here"] {
+  height: 150px;
+}
+.buttom-form .button {
+  width: 100%;
+  background-color: #4a4a4a;
+  font-weight: 600;
+}
 /* Media query */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
