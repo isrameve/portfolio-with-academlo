@@ -8,6 +8,7 @@
   padding: 0;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 .all-personla-info {
   height: 500px;
@@ -28,7 +29,7 @@
   border: 1px solid transparent;
   border-radius: 50px;
   background-color: #6d56c1;
-} 
+}
 
 /* Specific Properties */
 
@@ -40,7 +41,6 @@
   background-repeat: repeat;
   font-family: 'Roboto Mono', monospace;
   color: white;
-  height: 100%;
 }
 .navigation-bar a[class="menu-lg"] {
   display: none;
@@ -50,6 +50,13 @@
   padding: 5px;
   margin-left: 5px;
   margin-top: 20px;
+  transition: all 1s;
+}
+.navigation-bar a[class="menu-lg"]:hover {
+  color: #6d56c1;
+  font-weight: 500;
+  border-bottom: 2px solid #6d56c1;
+  padding: 2px;
 }
 .menu-responsive-sm {
   margin-left: 10px;
@@ -58,6 +65,19 @@
 .menu-responsive-sm .fa-bars {
   font-size: 2rem;
   color: white;
+}
+.wrapper-personal-info .personal-image {
+  display: none;
+  position: absolute;
+  background-image: url(../img/personal-picture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: gray;
+  height: 400px;
+  width: 300px;
+  border-radius: 5px;
+  top: 125px;
+  left: 25px;
 }
 .header-container .personal-name {
   font-size: 3rem;
@@ -91,8 +111,17 @@
 .fa-linkedin {
   font-size: 25px;
   color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
 }
-
+.personal-info-social:hover 
+.fa-instagram:hover,
+.fa-facebook:hover,
+.fa-linkedin:hover {
+  color: #6d56c1;
+  font-weight: 500;
+  border-bottom: 2px solid #6d56c1;
+  padding: 2px;
+}
 /* Content styles */
 /* Hello and Resume */
 .item-description {
@@ -111,6 +140,9 @@
 }
 .cv-button {
   margin-bottom: 30px;
+}
+.cv-button:hover {
+  background-color: #363636;
 }
 .hello .fa-download {
   margin-right: 5px;
@@ -230,6 +262,12 @@
 .social-footer a {
   color: inherit;
   text-decoration: underline;
+  transition: all 1s;
+}
+.social-footer a:hover {
+  color: #6d56c1;
+  font-weight: 500;
+  text-decoration: none;
 }
 .footer-contact-info dl {
   padding-top: 50px;
@@ -273,12 +311,21 @@
   width: 100%;
   background-color: #4a4a4a;
   font-weight: 600;
+  transition: all 0.5s;
+}
+.buttom-form .button:hover {
+  background-color: #6d56c1;
+}
+.all-rights {
+  display: inline-block;
+  padding: 20px 0;
+  text-align: center;
 }
 /* Media query */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .all-personla-info {
-    padding-left: 20%;
+    padding-left: 30%;
     padding-right: 15px;
   }
 }
@@ -287,8 +334,11 @@
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .menu-responsive-lg{
-    padding-left: 20%;
+  .all-personla-info {
+    height: 440px;
+  }
+  .menu-responsive-lg {
+    padding-left: 3%;
   }
   .navigation-bar a[class="menu-lg"] {
     display: inline-block;
@@ -296,7 +346,9 @@
   .menu-responsive-sm {
     display: none;
   }
-  
+  .wrapper-personal-info .personal-image {
+    display: flex;
+  }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
